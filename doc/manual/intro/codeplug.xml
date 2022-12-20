@@ -17,7 +17,7 @@
 </para>
 
 <para>
-  Before we can start, we need like any other participant in the DMR network a unique number, the 
+  Before we can start, we need, like any other participant in the DMR network, a unique number, the 
   DMR ID.
 </para>
 
@@ -62,7 +62,7 @@
 
 <para>
   When you start the CPS for the first time, you will likely note two things. First, that the user 
-  experience stems from the last millennium (about Windows 3.11). And second, that there are a tone
+  experience stems from the last millennium (about Windows 3.11). And second, that there are a ton
   of obscure and badly translated options for your device. These options are usually named cryptic
   and are not documented. 
 </para>
@@ -93,7 +93,7 @@
   <guilabel>General Settings</guilabel><footnote><para>The actual name may vary from manufacturer
     to manufactuer.</para></footnote>.
   Your DMR ID is entered in the field name <guilabel>Radio ID</guilabel>. Many radios support to 
-  enter several DMR IDs. This feature is usually not used in ham radio. In fact you will only always
+  enter several DMR IDs. This feature rarelly used in ham radio. In fact you will only
   need a single DMR ID even with several radios.
 </para>
 
@@ -137,7 +137,7 @@
 </table>
 
 <para>
-  Of cause there are much more talk groups. There are also talk groups for specific topics which 
+  Of course there are many more talk groups. There are also talk groups for specific topics which 
   are not necessarily targeted at a specific region. A rather complete list can be found in the 
   <link xlink:href="https://wiki.brandmeister.network/index.php/TalkGroups">Brandmeister Wiki</link>.
 </para>
@@ -201,9 +201,9 @@
   Before we start assembling any channels, I should mention that DMR radios are also able to 
   transmit and receive analog FM. Thus, you can also use them for classic FM simplex and repeater 
   operation. In this section, I describe the configuration of digital DMR channels usually called 
-  <quote>digital channels</quote>. The configuration of analog FM channels is not described. To 
-  create a DMR channel, you have to select <guilabel>digital</guilabel> for the <guilabel>channel 
-  type</guilabel>, for FM channels <guilabel>analog</guilabel>.
+  <quote>digital channels</quote>. The configuration of analog FM channels will not be described. To 
+  create a DMR channel, press <guilabel>Add Digital Channel</guilabel>. For Analog FM channels you should press 
+  <guilabel>Add Analog Channel</guilabel>.
 </para>
 
 <para>
@@ -230,7 +230,7 @@
 
 <para>
   In <xref linkend="tabIntroCPSimplexChannels"/> an example for a simplex channel configuration is 
-  shown. Of cause, you should extend it to all 8 simplex channels. The first column simply specifies
+  shown. Of course, you should extend it to all 8 simplex channels. The first column simply specifies
   the name of the channel.
 </para>
 
@@ -351,7 +351,7 @@
 <para>
   The third channel <quote>DB0LDS Sa/Th TS1</quote> is also similar to the first two. Here the 
   default transmit contact is the talk group for Saxony/Thuringia (TG2629) to be able to 
-  subscribe that talk group at my local repeater and call it easily. Please not that for this 
+  subscribe that talk group at my local repeater and call it easily. Please note that for this 
   channel the time slot 1 is used. The repeater is located in Brandenburg and therefore any 
   communication with Saxony is inter-regional and should happen on the time slot 1. The group list
   contains only the talk group for Saxony/Thuringia and thus other inter-regional talk groups 
@@ -367,13 +367,13 @@
   is set. If the channel <quote>DB0LDS TG9 TS2</quote> is selected and the PTT is pressed, 
   a call to TG9 is repeated only by the repeater DB0LDS. If the channel <quote>DB0LDS BB 
   TS2</quote> is selected and the PTT is pressed, a call to TG2621 is repeater by almost all 
-  repeaters in the region Berlin/Brandenbug. Therefore, chose a talk group that is sufficient
+  repeaters in the region Berlin/Brandenbug. Therefore, choose a talk group that is sufficient
   for you intended communication. 
 </para>
 
 <note>
   <para>
-    On any channel, you can start an arbitrary call (group, privat, all) by either selecting 
+    On any channel, you can start an arbitrary call (group, private, all) by either selecting 
     the contact from the contact list of even simply entering the DMR number into the keypad
     of the radio. This is independent from the default contact on the current channel. In the
     end, the default transmit contact is a convenience feature. With the default contact, 
@@ -393,7 +393,7 @@
 
 <para>
   The user interface of the manufacturer CPS where you configure the channels, is usually very 
-  extensiv. There is a huge amount of options that control the behavior of the channel. The 
+  extensive. There is a huge amount of options that control the behavior of the channel. The 
   majority of these options are not used in ham radio applications. Some of these, however, I want
   to describe here briefly.
 </para>
@@ -413,8 +413,8 @@
   The <glossterm>TOT</glossterm> setting or <quote>transmit timeout</quote> secifies the maximum 
   duration of continuous transmission. After that period of continuous transmission, the radio 
   will stop the transmission automatically. The feature is used in commercial applications to avoid
-  the blocking of a channel or talk group by a participant. This option has little sense in amateur 
-  radio and can be set to infinity.
+  the blocking of a channel or talk group by a participant. Some repeaters limit the air time so 
+  to avoid getting cut off check what's the timeout of your local repeaters.
 </para>
 
 <para>
@@ -451,7 +451,8 @@
 <para>
   The <glossterm>VOX</glossterm> feature is actually used in ham radio. It stands for <quote>voice 
   operated switch</quote> and allows to start a call using the voice without the need to press PTT.
-  Some radios allow to enable this option on a per-channel bases others only radio-wide.
+  Some radios allow to enable this option on a per-channel bases others only radio-wide. Care should 
+  be taken not to have a "hot mic" (transmitting when it shouldn't).
 </para>
 
 <para>
