@@ -4,7 +4,7 @@ The fileformat used by the CPS to store the codeplug in binary format is unfortu
 
 
 ## General layout
-The geneal layout of the file consists of a header followed by the sequence of elements (usually lists) that form the codeplug. Each list starts with the number of elements in this list. At the end, a footer is added to the file. The order of the elements in the file is important. Due to the variable size of each element, the file-offsets differ from codeplug to codeplug. 
+The general layout of the file consists of a header followed by the sequence of elements (usually lists) that form the codeplug. Each list starts with the number of elements in this list. At the end, a footer is added to the file. The order of the elements in the file is important. Due to the variable size of each element, the file-offsets differ from codeplug to codeplug. 
 
 The order of elements in the file is 
 
